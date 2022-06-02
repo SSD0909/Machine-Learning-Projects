@@ -356,12 +356,13 @@ print(os.getcwd())
 # In[59]:
 
 
-#a. Create a empty text file 
+
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
+#a. Create a empty text file 
 try:
-    #f = open("Sample4.txt", "x")
+    f = open("Sample4.txt", "x")
     
     #b.Add a sample paragraph from a news article
     f=open("C:/Users/steph/May17/Sample.txt","w")
@@ -377,12 +378,12 @@ try:
     f= open("C:/Users/steph/May17/Sample.txt", "a")
     
     f.write(" \n Assistant State’s Attorney James Murphy said the victim’s uncle, who sometimes stayed with them, came to their apartment Wednesday morning in the 4600 block of North Winthrop Avenue to check on Hagler after calling several times and not getting a response.")
-    #newline added to add as a new para
+    #newline added to add as a new para alongwith old para
     f=open("C:/Users/steph/May17/Sample.txt","r+")
     
     content=print(f.read())
     
-    
+  #wordcloud creation with the above para's  
     f=open("C:/Users/steph/May17/Sample.txt","r+")
     #content=print(f.read())
     #content
