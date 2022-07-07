@@ -1,2 +1,2 @@
-# DataScience_2022
+# DataScience
 A walkthrough to DataScience from Scratch
